@@ -15,10 +15,26 @@
 <link rel="shortcut icon" href="">
 </head>
 <body>
-
-<!-- コンテンツを配置 -->
-
-<!-- SCRIPTS -->
-<!-- Example: <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script> -->
+    <input type="file" id="inputFile">
+    <br>
+    <img id="viewImage">
+    <table border="1">
+        <thead>
+            <tr>
+                <th colspan="2">File Info</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>ファイル名</td>
+                <td id="fileName"></td>
+            </tr>
+            <tr>
+                <td>ファイルの種類</td>
+                <td id="fileType"></td>
+            </tr>
+        </tbody>
+    </table>
+    <script type="text/javascript" src="javascript/read_file.js"></script>
 </body>
 </html>
